@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Swan\ArtisanModule\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class ArtisanModuleCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'artisan-module';
 
     public $description = 'My command';
 
